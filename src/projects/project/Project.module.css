@@ -1,0 +1,25 @@
+.project {
+    width: 400px;
+    background-color: #f3a787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    min-height: 300px;
+    width: 100%;
+    background-color: #666c4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    background-color: #d5d5bd;
+}
