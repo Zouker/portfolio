@@ -1,0 +1,63 @@
+@import '../common/styles/sass/variables';
+
+.footerBlock {
+  height: 30vh;
+  text-align: center;
+  padding: 40px 0;
+  color: $textColor;
+  background: $bgSecondColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 10vh;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+
+    .footerContacts {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      @media screen and (max-width: 1024px) {
+        & {
+          width: 100%;
+        }
+      }
+
+      .footerItem {
+        width: 70px;
+        height: 70px;
+
+        &:hover {
+          cursor: pointer;
+          opacity: .5;
+        }
+
+        @media screen and (max-width: 500px) {
+          & {
+            width: 40px;
+            height: 40px;
+          }
+          @media screen and (max-width: 450px) {
+            & {
+              width: 35px;
+              height: 35px;
+            }
+            @media screen and (max-width: 400px) {
+              & {
+                width: 30px;
+                height: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footerEnd {
+      margin-bottom: 10px;
+    }
+  }
+}

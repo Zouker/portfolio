@@ -1,0 +1,24 @@
+@import '../common/styles/sass/variables';
+
+.projectsBlock {
+  background-color: $bgColor;
+  padding: 100px 0;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .projects {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+      border: 1px solid;
+      width: 100%;
+      margin-top: 30px;
+      @media screen and (max-width: 1154px) {
+        justify-content: center;
+      }
+    }
+  }
+}

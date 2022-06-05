@@ -1,0 +1,21 @@
+@import '../common/styles/sass/variables';
+
+.remoteBlock {
+  min-height: 30vh;
+  background-color: $bgSecondColor;
+  padding: 100px 0;
+
+  .remoteContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 20vh;
+    text-align: center;
+
+    .indent {
+      margin-top: 15px;
+    }
+  }
+}
+
+
+
