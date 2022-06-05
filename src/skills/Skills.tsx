@@ -1,20 +1,24 @@
 import React from 'react';
-import styles from './Skills.module.css'
-import styleContainer from '../common/styles/Container.module.css'
+import styles from './Skills.module.scss'
+import styleContainer from '../common/styles/Container.module.scss'
 import {Skill} from './skill/Skill';
+import {Title} from '../common/components/title/Title';
+import {skillsData} from '../common/data/skills-data';
 
 export const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.title}>Skills</h2>
+                <Title text={'Skills'}/>
                 <div className={styles.skills}>
-                    <Skill title={'HTML & CSS'}
-                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, quam!'}/>
-                    <Skill title={'React JS'}
-                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, praesentium.'}/>
-                    <Skill title={'Typescript'}
-                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, vitae!'}/>
+                    {skillsData.map(s =>
+                        <Skill key={s.id}
+                               id={s.id}
+                               title={s.title}
+                               description={s.description}
+                               backgroundImage={s.backgroundImage}
+                        />
+                    )}
                 </div>
             </div>
         </div>
