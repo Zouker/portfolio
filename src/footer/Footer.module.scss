@@ -1,4 +1,5 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .footerBlock {
   height: 30vh;
@@ -15,6 +16,12 @@
     height: 100%;
     width: 80%;
     flex-wrap: wrap;
+
+    .author {
+      @include text($titleFontFamily, 22px, 1.2);
+      letter-spacing: 3px;
+      margin: 0 0 5px;
+    }
 
     .footerContacts {
       width: 50%;
@@ -58,6 +65,7 @@
 
     .footerEnd {
       margin-bottom: 10px;
+      font-family: $textFontFamily;
     }
   }
 }

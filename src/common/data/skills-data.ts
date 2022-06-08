@@ -9,6 +9,10 @@ import Axios from '../../assets/image/axios.png';
 import MaterialUI from '../../assets/image/material-ui.svg';
 import GIT from '../../assets/image/git.svg';
 import Storybook from '../../assets/image/storybook.svg';
+import WebStorm from '../../assets/image/webstorm.svg';
+import VSCode from '../../assets/image/vscode.svg';
+import RestAPI from '../../assets/image/rest-api.png';
+import Postman from '../../assets/image/postman.svg';
 
 export const skillsData = [
     {
@@ -55,26 +59,50 @@ export const skillsData = [
     },
     {
         id: '8',
+        title: 'Rest API',
+        description: 'Architectural style for an application program interface (API) that uses HTTP requests to access and use data.',
+        backgroundImage: `url(${RestAPI})`,
+    },
+    {
+        id: '9',
         title: 'Axios',
         description: 'Promise-based library used with Node.js and browser to make asynchronous JavaScript HTTP requests.',
         backgroundImage: `url(${Axios})`,
     },
     {
-        id: '9',
+        id: '10',
+        title: 'Postman',
+        description: 'API platform for building and using APIs',
+        backgroundImage: `url(${Postman})`,
+    },
+    {
+        id: '11',
         title: 'Material UI',
         description: 'Library that allows import and use different components to create a user interface in React applications.',
         backgroundImage: `url(${MaterialUI})`,
     },
     {
-        id: '10',
+        id: '12',
         title: 'Storybook',
         description: 'Tool for building UI components and pages in isolation.',
         backgroundImage: `url(${Storybook})`,
     },
     {
-        id: '11',
+        id: '13',
         title: 'GIT',
         description: 'DevOps tool used for source code management.',
         backgroundImage: `url(${GIT})`,
+    },
+    {
+        id: '14',
+        title: 'WebStorm',
+        description: 'Powerful IDE for JavaScript development which helps you write high- quality code quickly, regardless of how complex your projects might be.',
+        backgroundImage: `url(${WebStorm})`,
+    },
+    {
+        id: '15',
+        title: 'VS Code',
+        description: 'Code editor redefined and optimized for building and debugging modern web and cloud applications.',
+        backgroundImage: `url(${VSCode})`,
     },
 ]
