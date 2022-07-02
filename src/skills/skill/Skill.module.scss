@@ -2,10 +2,8 @@
 @import '../../common/styles/sass/mixins';
 
 .skill {
+  @include flex(column, center, center, nowrap);
   width: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin: 30px 5px 0 5px;
   color: $textColor;
@@ -17,13 +15,12 @@
   }
 
   .skillTitle {
-    @include text($titleFontFamily, 16px, 1.2);
+    @include text($titleFontFamily, 16px, 1.2, 600);
     letter-spacing: 1px;
-    margin: 0 0 5px;
+    margin: 20px 0;
   }
 
   .description {
-    @include text($textFontFamily, 14px, 1.8);
-    font-weight: 400;
+    @include text($textFontFamily, 14px, 1.8, 400);
   }
 }

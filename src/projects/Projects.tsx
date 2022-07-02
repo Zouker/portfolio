@@ -1,16 +1,19 @@
 import React from 'react';
 import styles from './Projects.module.scss';
-import styleContainer from '../common/styles/Container.module.scss';
 import {Project} from './project/Project';
 import {Title} from '../common/components/title/Title';
 import {projectsData} from '../common/data/projects-data';
 
+const Fade = require('react-reveal/Fade')
+
 export const Projects = () => {
 
     return (
-        <div className={styles.projectsBlock}>
-            <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
-                <Title text={'Projects'}/>
+        <div id={'projects'} className={styles.projectsBlock}>
+            <div className={styles.container}>
+                <Fade top>
+                    <Title text={'Projects'}/>
+                </Fade>
                 <div className={styles.projects}>
                     {projectsData.map(p =>
                         <Project key={p.id}

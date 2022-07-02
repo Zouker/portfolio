@@ -6,21 +6,22 @@
   text-align: center;
   padding: 40px 0;
   color: $textColor;
-  background: $bgSecondColor;
 
-  .footerContainer {
-    flex-direction: column;
-    justify-content: space-between;
+  .container {
+    @include container();
+    @include flex(column, space-between, center, wrap);
     min-height: 10vh;
-    display: flex;
     height: 100%;
-    width: 80%;
-    flex-wrap: wrap;
 
     .author {
-      @include text($titleFontFamily, 22px, 1.2);
-      letter-spacing: 3px;
-      margin: 0 0 5px;
+      margin: 0 0 30px;
+      color: $textColor;
+      text-transform: capitalize;
+      letter-spacing: 5px;
+
+      & h2 {
+        @include text($titleFontFamily, 36px, 1.2, 300);
+      }
     }
 
     .footerContacts {
@@ -63,9 +64,8 @@
       }
     }
 
-    .footerEnd {
-      margin-bottom: 10px;
-      font-family: $textFontFamily;
+    .copyright {
+      @include text($textFontFamily, 16px, 1.2, 300);
     }
   }
 }

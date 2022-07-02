@@ -9,47 +9,46 @@ import Axios from '../../assets/image/axios.png';
 import MaterialUI from '../../assets/image/material-ui.svg';
 import GIT from '../../assets/image/git.svg';
 import Storybook from '../../assets/image/storybook.svg';
-import WebStorm from '../../assets/image/webstorm.svg';
-import VSCode from '../../assets/image/vscode.svg';
 import RestAPI from '../../assets/image/rest-api.png';
 import Postman from '../../assets/image/postman.svg';
+import Formik from '../../assets/image/formik.png';
 
 export const skillsData = [
     {
         id: '1',
-        title: 'HTML',
-        description: 'Hypertext Markup Language for describing the contents and appearance of Web pages.',
-        backgroundImage: `url(${HTML})`,
-    },
-    {
-        id: '2',
-        title: 'CSS',
-        description: 'Stylesheet language used to describe the presentation of a document written in HTML.',
-        backgroundImage: `url(${CSS})`,
-    },
-    {
-        id: '3',
-        title: 'JavaScript',
-        description: 'The Programming Language for the Web that conforms to the ECMAScript specification.',
-        backgroundImage: `url(${JS})`,
-    },
-    {
-        id: '4',
-        title: 'TypeScript',
-        description: 'A syntactic superset of JavaScript which adds static typing.',
-        backgroundImage: `url(${TS})`,
-    },
-    {
-        id: '5',
         title: 'React',
         description: 'JavaScript-based UI development library.',
         backgroundImage: `url(${React})`,
     },
     {
-        id: '6',
+        id: '2',
         title: 'Redux',
         description: ' JavaScript library for managing and centralizing application state.',
         backgroundImage: `url(${Redux})`,
+    },
+    {
+        id: '3',
+        title: 'TypeScript',
+        description: 'A syntactic superset of JavaScript which adds static typing.',
+        backgroundImage: `url(${TS})`,
+    },
+    {
+        id: '4',
+        title: 'JavaScript',
+        description: 'The Programming Language for the Web that conforms to the ECMAScript specification.',
+        backgroundImage: `url(${JS})`,
+    },
+    {
+        id: '5',
+        title: 'HTML',
+        description: 'Hypertext Markup Language for describing the contents and appearance of Web pages.',
+        backgroundImage: `url(${HTML})`,
+    },
+    {
+        id: '6',
+        title: 'CSS',
+        description: 'Stylesheet language used to describe the presentation of a document written in HTML.',
+        backgroundImage: `url(${CSS})`,
     },
     {
         id: '7',
@@ -95,14 +94,8 @@ export const skillsData = [
     },
     {
         id: '14',
-        title: 'WebStorm',
-        description: 'Powerful IDE for JavaScript development which helps you write high- quality code quickly, regardless of how complex your projects might be.',
-        backgroundImage: `url(${WebStorm})`,
-    },
-    {
-        id: '15',
-        title: 'VS Code',
-        description: 'Code editor redefined and optimized for building and debugging modern web and cloud applications.',
-        backgroundImage: `url(${VSCode})`,
+        title: 'Formik',
+        description: 'Small group of React components and hooks for building forms in React and React Native.',
+        backgroundImage: `url(${Formik})`,
     },
 ]

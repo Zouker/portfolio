@@ -2,19 +2,13 @@
 @import '../../common/styles/sass/mixins';
 
 .project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  @include flex(column, flex-start, center, wrap);
   background-color: $bgSecondColor;
 
   .image {
+    @include flex(column, center, center, wrap);
     min-height: 300px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,14 +22,11 @@
       bottom: 0;
       left: 0;
       right: 0;
-      opacity: 0.4;
+      opacity: 0.3;
     }
 
     .viewBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+      @include flex(column, center, center, wrap);
       width: 150px;
       height: 40px;
       font-size: 20px;
@@ -55,15 +46,16 @@
 
   .projectInfo {
     padding: 25px 20px;
+    color: $textColor;
 
     .projectTitle {
-      @include text($titleFontFamily, 16px, 1.2);
+      @include text($titleFontFamily, 16px, 1.2, 600);
       letter-spacing: 1px;
       margin: 0 0 5px;
     }
 
     .description {
-      @include text($textFontFamily, 14px, 1.8);
+      @include text($textFontFamily, 14px, 1.8, 600);
       font-weight: 400;
     }
   }

@@ -18,7 +18,7 @@ export const projectsData = [
         description: 'Technology stack: ReactJS, TypeScript, Redux, RestAPI, axios, Thunk, ...',
         backgroundImage: `url(${socialImage})`,
         repoLink: 'https://github.com/Zouker/social_network',
-        demoLink: ''
+        demoLink: 'https://zouker.github.io/social_network/'
     },
     {
         id: '3',
