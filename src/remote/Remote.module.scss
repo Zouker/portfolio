@@ -11,6 +11,7 @@
     min-height: 20vh;
 
     .indent {
+      @include flex(column, center, center, nowrap);
       margin-top: 15px;
     }
   }
