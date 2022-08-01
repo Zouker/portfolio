@@ -2,7 +2,7 @@ import todoImage from '../../assets/image/todolist.jpg';
 import socialImage from '../../assets/image/social_network.jpg';
 import counter1 from '../../assets/image/counter_1.jpg';
 import counter2 from '../../assets/image/counter_2.jpg';
-import cards from '../../assets/image/cards.jpg';
+import cards from '../../assets/image/cards.png';
 import pizza from '../../assets/image/pizza.png';
 
 export const projectsData = [
@@ -17,7 +17,7 @@ export const projectsData = [
     {
         id: '2',
         title: 'Social Network',
-        description: 'Technology stack: ReactJS, TypeScript, Redux, RestAPI, Axios, Redux-Thunk, React-Router-dom',
+        description: 'Technology stack: ReactJS, TypeScript, Redux, RestAPI, Axios, Redux-Thunk, React-Router-Dom, Redux-Form, Formik, Ant Design',
         backgroundImage: `url(${socialImage})`,
         repoLink: 'https://github.com/Zouker/social_network',
         demoLink: 'https://zouker.github.io/social_network/'
@@ -41,7 +41,7 @@ export const projectsData = [
     {
         id: '5',
         title: 'Cards',
-        description: 'Technology stack: ReactJS, TypeScript, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Material UI',
+        description: 'Technology stack: ReactJS, TypeScript, Redux, Redux-Thunk, React-Router-Dom, Axios, Formik, Material UI',
         backgroundImage: `url(${cards})`,
         repoLink: 'https://github.com/Zouker/cards',
         demoLink: 'https://zouker.github.io/cards/'
