@@ -4,6 +4,7 @@ import counter1 from '../../assets/image/counter_1.jpg';
 import counter2 from '../../assets/image/counter_2.jpg';
 import cards from '../../assets/image/cards.png';
 import pizza from '../../assets/image/pizza.png';
+import storybook from '../../assets/image/React-components.png'
 
 export const projectsData = [
     {
@@ -53,5 +54,13 @@ export const projectsData = [
         backgroundImage: `url(${pizza})`,
         repoLink: 'https://github.com/Zouker/pizza-app',
         demoLink: 'https://zouker.github.io/pizza-app/'
+    },
+    {
+        id: '7',
+        title: 'Storybook of React components',
+        description: 'Technology stack: ReactJS, TypeScript, Storybook',
+        backgroundImage: `url(${storybook})`,
+        repoLink: 'https://github.com/Zouker/examples',
+        demoLink: 'https://zouker.github.io/examples/?path=/story/example-introduction--page'
     }
 ]
