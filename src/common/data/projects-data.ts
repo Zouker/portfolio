@@ -5,6 +5,7 @@ import counter2 from '../../assets/image/counter_2.jpg';
 import cards from '../../assets/image/cards.png';
 import pizza from '../../assets/image/pizza.png';
 import storybook from '../../assets/image/React-components.png'
+import learningCards from '../../assets/image/learning-cards.jpg'
 
 export const projectsData = [
     {
@@ -62,5 +63,13 @@ export const projectsData = [
         backgroundImage: `url(${storybook})`,
         repoLink: 'https://github.com/Zouker/examples',
         demoLink: 'https://zouker.github.io/examples/?path=/story/example-introduction--page'
+    },
+    {
+        id: '8',
+        title: 'Learning Cards',
+        description: 'Technology stack: ReactJS, TypeScript, Redux, Redux-Thunk, React-Router-Dom, Axios, Formik, Material UI',
+        backgroundImage: `url(${learningCards})`,
+        repoLink: 'https://github.com/Zouker/learning-cards',
+        demoLink: 'https://zouker.github.io/learning-cards/'
     }
 ]
