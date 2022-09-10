@@ -42,6 +42,9 @@ const particlesOptions = {
             type: 'circle',
         },
     },
+    fullScreen: {
+        enable: false
+    }
 }
 
 export const Main = () => {
@@ -57,7 +60,8 @@ export const Main = () => {
                     </div>
                 </Fade>
                 <Fade right>
-                    <Tilt className="Tilt" options={{max: 35, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)"}}>
+                    <Tilt className="Tilt"
+                          options={{max: 35, transition: true, speed: 300, easing: 'cubic-bezier(.03,.98,.52,.99)'}}>
                         <div className={styles.photo}>
                             <div className={styles.image}>
                             </div>
