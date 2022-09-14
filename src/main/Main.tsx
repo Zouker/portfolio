@@ -2,8 +2,7 @@ import React from 'react';
 import styles from './Main.module.scss'
 import Particles from 'react-tsparticles';
 import ReactTypingEffect from 'react-typing-effect';
-// @ts-ignore
-import Tilt from 'react-tilt'
+import Tilt from 'react-parallax-tilt'
 
 const Fade = require('react-reveal/Fade')
 
@@ -60,8 +59,7 @@ export const Main = () => {
                     </div>
                 </Fade>
                 <Fade right>
-                    <Tilt className="Tilt"
-                          options={{max: 35, transition: true, speed: 300, easing: 'cubic-bezier(.03,.98,.52,.99)'}}>
+                    <Tilt className="Tilt">
                         <div className={styles.photo}>
                             <div className={styles.image}>
                             </div>
@@ -69,7 +67,6 @@ export const Main = () => {
                     </Tilt>
                 </Fade>
             </div>
-
         </div>
     );
 };
