@@ -6,6 +6,8 @@ import cards from '../../assets/image/cards.png';
 import pizza from '../../assets/image/pizza.png';
 import storybook from '../../assets/image/React-components.png'
 import learningCards from '../../assets/image/learning-cards.jpg'
+import githubUserSearch from '../../assets/image/github-user-search.png'
+import websocketChat from '../../assets/image/chat-websocket.png'
 
 export const projectsData = [
     {
@@ -71,5 +73,21 @@ export const projectsData = [
         backgroundImage: `url(${learningCards})`,
         repoLink: 'https://github.com/Zouker/learning-cards',
         demoLink: 'https://zouker.github.io/learning-cards/'
+    },
+    {
+        id: '9',
+        title: 'GitHub User Search',
+        description: 'Technology stack: ReactJS, TypeScript, React-Router-Dom, Axios, CSS',
+        backgroundImage: `url(${githubUserSearch})`,
+        repoLink: 'https://github.com/Zouker/github-app',
+        demoLink: 'https://zouker.github.io/github-app/'
+    },
+    {
+        id: '10',
+        title: 'Websocket Chat',
+        description: 'Technology stack: ReactJS, TypeScript, Redux, Redux-Thunk, Socket.io',
+        backgroundImage: `url(${websocketChat})`,
+        repoLink: 'https://github.com/Zouker/chat-websocket',
+        demoLink: 'https://zouker.github.io/chat-websocket/'
     }
 ]

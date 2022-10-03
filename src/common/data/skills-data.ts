@@ -13,6 +13,7 @@ import Storybook from '../../assets/image/storybook.svg';
 import RestAPI from '../../assets/image/rest-api.png';
 import Postman from '../../assets/image/postman.svg';
 import Formik from '../../assets/image/formik.png';
+import Socket from '../../assets/image/socket.svg';
 
 export const skillsData = [
     {
@@ -104,5 +105,11 @@ export const skillsData = [
         title: 'Formik',
         description: 'Small group of React components and hooks for building forms in React and React Native.',
         backgroundImage: `url(${Formik})`,
+    },
+    {
+        id: '16',
+        title: 'Socket.io',
+        description: 'Library that enables low-latency, bidirectional and event-based communication between a client and a server. ',
+        backgroundImage: `url(${Socket})`,
     },
 ]
