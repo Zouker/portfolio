@@ -8,6 +8,7 @@ import storybook from '../../assets/image/React-components.png'
 import learningCards from '../../assets/image/learning-cards.jpg'
 import githubUserSearch from '../../assets/image/github-user-search.png'
 import websocketChat from '../../assets/image/chat-websocket.png'
+import rickAndMorty from '../../assets/image/rick-and-morty.png'
 
 export const projectsData = [
     {
@@ -89,5 +90,13 @@ export const projectsData = [
         backgroundImage: `url(${websocketChat})`,
         repoLink: 'https://github.com/Zouker/chat-websocket',
         demoLink: 'https://zouker.github.io/chat-websocket/'
+    },
+    {
+        id: '11',
+        title: 'Rick and Morty',
+        description: 'Technology stack: ReactJS, TypeScript, Redux Toolkit, Redux-Thunk, React-Router-Dom, Axios, SASS',
+        backgroundImage: `url(${rickAndMorty})`,
+        repoLink: 'https://github.com/Zouker/rick-and-morty',
+        demoLink: 'https://zouker.github.io/rick-and-morty/'
     }
 ]
