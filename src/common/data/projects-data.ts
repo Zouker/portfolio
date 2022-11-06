@@ -9,6 +9,7 @@ import learningCards from '../../assets/image/learning-cards.jpg'
 import githubUserSearch from '../../assets/image/github-user-search.png'
 import websocketChat from '../../assets/image/chat-websocket.png'
 import rickAndMorty from '../../assets/image/rick-and-morty.png'
+import movieCatalog from '../../assets/image/movie-catalog.png'
 
 export const projectsData = [
     {
@@ -98,5 +99,13 @@ export const projectsData = [
         backgroundImage: `url(${rickAndMorty})`,
         repoLink: 'https://github.com/Zouker/rick-and-morty',
         demoLink: 'https://zouker.github.io/rick-and-morty/'
+    },
+    {
+        id: '12',
+        title: 'Movie Catalog',
+        description: 'Technology stack: ReactJS, TypeScript, Redux, Redux-Thunk, Axios, CSS',
+        backgroundImage: `url(${movieCatalog})`,
+        repoLink: 'https://github.com/Zouker/movie-catalog',
+        demoLink: 'https://zouker.github.io/movie-catalog/'
     }
 ]
