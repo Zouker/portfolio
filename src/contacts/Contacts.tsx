@@ -19,7 +19,7 @@ export const Contacts = () => {
     const onSubmit = (data: IFormInputs, e: any) => {
         e.preventDefault()
         axios.post('https://gmail-smtp-nodejs-serv.herokuapp.com/sendMessage', {data})
-            .then((res) => {
+            .then(() => {
                 alert('Your message has been send');
             });
         e.target.reset()
@@ -44,7 +44,7 @@ export const Contacts = () => {
 
                         <textarea {...register('message', {required: true})} placeholder={'Your message'}
                                   className={styles.textarea}/>
-                        <Button type="submit" buttonTitle={'Send message'}/>
+                        <Button type="submit" buttonTitle={'Send a message'}/>
                     </form>
                 </Fade>
             </div>
