@@ -10,6 +10,7 @@ import githubUserSearch from '../../assets/image/github-user-search.png'
 import websocketChat from '../../assets/image/chat-websocket.png'
 import rickAndMorty from '../../assets/image/rick-and-morty.png'
 import movieCatalog from '../../assets/image/movie-catalog.png'
+import weatherApp from '../../assets/image/weather-app.png'
 
 export const projectsData = [
     {
@@ -107,5 +108,13 @@ export const projectsData = [
         backgroundImage: `url(${movieCatalog})`,
         repoLink: 'https://github.com/Zouker/movie-catalog',
         demoLink: 'https://zouker.github.io/movie-catalog/'
+    },
+    {
+        id: '13',
+        title: 'Weather App',
+        description: 'Technology stack: ReactJS, TypeScript, Axios, CSS',
+        backgroundImage: `url(${weatherApp})`,
+        repoLink: 'https://github.com/Zouker/weather-app',
+        demoLink: 'https://zouker.github.io/weather-app/'
     }
 ]
