@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.858bcb97.css",
-    "main.js": "/portfolio/static/js/main.0bb4783d.js",
+    "main.js": "/portfolio/static/js/main.6b7f86a5.js",
     "static/js/787.47af9b6a.chunk.js": "/portfolio/static/js/787.47af9b6a.chunk.js",
     "static/media/movie-catalog.png": "/portfolio/static/media/movie-catalog.ed878aaa6c0d116ca689.png",
     "static/media/rick-and-morty.png": "/portfolio/static/media/rick-and-morty.1dd776052e76439d7147.png",
     "static/media/counter_2.jpg": "/portfolio/static/media/counter_2.cc01a9dccbbed457abc0.jpg",
     "static/media/pizza.png": "/portfolio/static/media/pizza.4448b52eab268246c366.png",
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.5000b3a2fbf5c1bb1e3a.png",
     "static/media/todolist.jpg": "/portfolio/static/media/todolist.782229f6717e05be81c2.jpg",
     "static/media/cards.png": "/portfolio/static/media/cards.e7a162950cc5d7338e02.png",
     "static/media/counter_1.jpg": "/portfolio/static/media/counter_1.f3870948c9b9eea04d24.jpg",
@@ -36,11 +37,11 @@
     "static/media/material-ui.svg": "/portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/js.svg": "/portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
     "main.858bcb97.css.map": "/portfolio/static/css/main.858bcb97.css.map",
-    "main.0bb4783d.js.map": "/portfolio/static/js/main.0bb4783d.js.map",
+    "main.6b7f86a5.js.map": "/portfolio/static/js/main.6b7f86a5.js.map",
     "787.47af9b6a.chunk.js.map": "/portfolio/static/js/787.47af9b6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.858bcb97.css",
-    "static/js/main.0bb4783d.js"
+    "static/js/main.6b7f86a5.js"
   ]
 }
