@@ -12,6 +12,7 @@ import rickAndMorty from '../../assets/image/rick-and-morty.png'
 import movieCatalog from '../../assets/image/movie-catalog.png'
 import weatherApp from '../../assets/image/weather-app.png'
 import homeworks from '../../assets/image/homeworks.png'
+import burgers from '../../assets/image/burgers.png'
 
 export const projectsData = [
     {
@@ -126,5 +127,13 @@ export const projectsData = [
         backgroundImage: `url(${weatherApp})`,
         repoLink: 'https://github.com/Zouker/weather-app',
         demoLink: 'https://zouker.github.io/weather-app/'
+    },
+    {
+        id: '15',
+        title: 'Burgers',
+        description: 'Technology stack: Angular, TypeScript, HTML, CSS',
+        backgroundImage: `url(${burgers})`,
+        repoLink: 'https://github.com/Zouker/burgers',
+        demoLink: 'https://zouker.github.io/burgers/'
     },
 ]

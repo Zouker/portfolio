@@ -22,7 +22,7 @@ export const contactsData = [
     },
     {
         id: '4',
-        link: 'https://t.me/Zouker_BY',
+        link: 'https://t.me/Denis_ACK',
         logo: `${telegram}`,
     },
     {
