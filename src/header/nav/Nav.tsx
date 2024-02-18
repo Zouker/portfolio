@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Nav.module.scss'
 import {Link} from 'react-scroll';
 
-
 export const Nav = () => {
     return (
         <div className={styles.nav}>

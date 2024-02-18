@@ -3,7 +3,7 @@
 
 .project {
   @include flex(column, flex-start, center, wrap);
-  background-color: $bgSecondColor;
+  background-color: var(--bgSecondColor);
 
   .image {
     @include flex(column, center, center, wrap);
@@ -17,7 +17,7 @@
     &::before {
       position: absolute;
       content: '';
-      background-color: $bgColor;
+      background-color: var(--bgColor);
       top: 0;
       bottom: 0;
       left: 0;
@@ -30,15 +30,15 @@
       width: 150px;
       height: 40px;
       font-size: 20px;
-      background-color: $bgSecondColor;
-      color: $primaryColor;
+      background-color: var(--bgSecondColor);
+      color: var(--primaryColor);
       margin: 30px 0;
       position: relative;
       z-index: 1;
 
       &:hover {
         transform: scale(1.1);
-        color: $textColor;
+        color: var(--textColor);
         cursor: pointer;
       }
     }
@@ -46,7 +46,7 @@
 
   .projectInfo {
     padding: 25px 20px;
-    color: $textColor;
+    color: var(--textColor);
 
     .projectTitle {
       @include text($titleFontFamily, 16px, 1.2, 600);

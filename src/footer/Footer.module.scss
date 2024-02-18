@@ -5,7 +5,7 @@
   height: 30vh;
   text-align: center;
   padding: 40px 0;
-  color: $textColor;
+  color: var(--textColor);
 
   .container {
     @include container();
@@ -15,7 +15,7 @@
 
     .author {
       margin: 0 0 30px;
-      color: $textColor;
+      color: var(--textColor);
       text-transform: capitalize;
       letter-spacing: 5px;
 

@@ -20,12 +20,12 @@
 
       .input,
       .textarea {
-        background: $bgSecondColor;
+        background: var(--bgSecondColor);
         border: 1px solid #4a4a4a;
         box-sizing: border-box;
         @include text(inherit, 12px, 1.5, 400);
         outline: none;
-        color: $textColor;
+        color: var(--textColor);
         margin-bottom: 1.2rem;
 
         &:-webkit-autofill {
@@ -35,7 +35,7 @@
           transition: background-color 5000s ease-in-out 0s;
 
           &:focus {
-            border: 2px solid $bgSecondColor
+            border: 2px solid var(--bgSecondColor);
           }
         }
       }

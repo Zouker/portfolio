@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import './App.scss';
 import {Header} from './header/Header';
 import {Main} from './main/Main';
@@ -8,17 +9,22 @@ import {Remote} from './remote/Remote';
 import {Contacts} from './contacts/Contacts';
 import {Footer} from './footer/Footer';
 
+
 function App() {
+    const [isDark, setIsDark] = React.useState(true);
+
     return (
-        <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Remote/>
-            <Contacts/>
-            <Footer/>
-        </div>
+        <>
+            <div className="App" data-theme={isDark ? 'dark' : 'light'}>
+                <Header isDark={isDark} setIsDark={setIsDark}/>
+                <Main/>
+                <Skills/>
+                <Projects/>
+                <Remote/>
+                <Contacts/>
+                <Footer/>
+            </div>
+        </>
     );
 }
 

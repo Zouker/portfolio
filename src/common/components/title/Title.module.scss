@@ -3,7 +3,7 @@
 
 .title {
   margin: 0 0 30px;
-  color: $textColor;
+  color: var(--textColor);
   text-transform: capitalize;
   letter-spacing: 5px;
   position: relative;
@@ -16,7 +16,7 @@
   &::before {
     content: '';
     position: absolute;
-    background: $primaryColor;
+    background: var(--primaryColor);
     width: 55px;
     height: 1px;
     bottom: -30px;

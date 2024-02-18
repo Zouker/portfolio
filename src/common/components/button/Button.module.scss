@@ -14,7 +14,7 @@
   -o-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
   background: transparent;
-  color: $textColor;
+  color: var(--textColor);
   max-width: 170px;
   margin: 15px auto;
   z-index: 22;
@@ -32,7 +32,7 @@
     bottom: 0;
     height: 10px;
     width: 50%;
-    background: $primaryColor;
+    background: var(--primaryColor);
     z-index: -1;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
@@ -43,7 +43,7 @@
   }
 
   &:hover {
-    color: $textColor;
+    color: var(--textColor);
 
     &::after {
       height: 100%;
