@@ -1,17 +1,17 @@
 @import './common/styles/sass/variables.scss';
 
-[data-theme='light'] {
-    --textColor: #000000;
-    --primaryColor: #4e93e6;
-    --bgColor: #ffffff;
-    --bgSecondColor: #d6e0de;
-}
-
 [data-theme='dark'] {
     --textColor: #fff;
     --primaryColor: #4e93e6;
     --bgColor: #1f1f20;
     --bgSecondColor: #252527;
+}
+
+body {
+    --textColor: #000;
+    --primaryColor: #4e93e6;
+    --bgColor: #fff;
+    --bgSecondColor: #d6e0de;
 }
 
 * {
