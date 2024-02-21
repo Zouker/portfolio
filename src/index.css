@@ -9,13 +9,14 @@ html [data-theme='light'] {
     --textColor: #000;
     --primaryColor: #4e93e6;
     --bgColor: #fff;
-    --bgSecondColor: #d6e0de;
+    --bgSecondColor: #e6e8e7;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: 1s;
 }
 
 body {

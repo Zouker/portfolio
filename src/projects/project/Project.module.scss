@@ -5,6 +5,10 @@
   @include flex(column, flex-start, center, wrap);
   background-color: var(--bgSecondColor);
 
+  &:hover {
+    transform: scale(1.05);
+  }
+
   .image {
     @include flex(column, center, center, wrap);
     min-height: 300px;
