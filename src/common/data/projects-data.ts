@@ -13,6 +13,7 @@ import movieCatalog from '../../assets/image/movie-catalog.png'
 import weatherApp from '../../assets/image/weather-app.png'
 import homeworks from '../../assets/image/homeworks.png'
 import burgers from '../../assets/image/burgers.png'
+import foodTruckOrders from '../../assets/image/food-truck-orders.jpg'
 
 export const projectsData = [
     {
@@ -135,5 +136,13 @@ export const projectsData = [
         backgroundImage: `url(${burgers})`,
         repoLink: 'https://github.com/Zouker/burgers',
         demoLink: 'https://zouker.github.io/burgers/'
+    },
+    {
+        id: '16',
+        title: 'Food truck orders',
+        description: 'Technology stack: React, TypeScript, Bootstrap',
+        backgroundImage: `url(${foodTruckOrders})`,
+        repoLink: 'https://github.com/Zouker/food-truck-orders',
+        demoLink: 'https://zouker.github.io/food-truck-orders/'
     },
 ]
