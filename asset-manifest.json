@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.48618362.css",
-    "main.js": "/portfolio/static/js/main.dae3cd09.js",
+    "main.js": "/portfolio/static/js/main.ceb357ba.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/burgers.png": "/portfolio/static/media/burgers.f795fcac25bdf7a2f386.png",
     "static/media/movie-catalog.png": "/portfolio/static/media/movie-catalog.ed878aaa6c0d116ca689.png",
@@ -15,6 +15,7 @@
     "static/media/counter_1.jpg": "/portfolio/static/media/counter_1.f3870948c9b9eea04d24.jpg",
     "static/media/chat-websocket.png": "/portfolio/static/media/chat-websocket.f0bd0e1e3a58197ef157.png",
     "static/media/social_network.jpg": "/portfolio/static/media/social_network.868420429c470e5e41e1.jpg",
+    "static/media/food-truck-orders.jpg": "/portfolio/static/media/food-truck-orders.3654d682ede43d964af5.jpg",
     "static/media/github-user-search.png": "/portfolio/static/media/github-user-search.6933a1cc3f98a63eb439.png",
     "static/media/photo.jpg": "/portfolio/static/media/photo.8ee55b812ba141a30df8.jpg",
     "static/media/learning-cards.jpg": "/portfolio/static/media/learning-cards.c0e27dc3e3a282e63cce.jpg",
@@ -39,11 +40,11 @@
     "static/media/socket.svg": "/portfolio/static/media/socket.0c3c4cdad6ab6cfbf3130b0793fd9b62.svg",
     "static/media/js.svg": "/portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
     "main.48618362.css.map": "/portfolio/static/css/main.48618362.css.map",
-    "main.dae3cd09.js.map": "/portfolio/static/js/main.dae3cd09.js.map",
+    "main.ceb357ba.js.map": "/portfolio/static/js/main.ceb357ba.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48618362.css",
-    "static/js/main.dae3cd09.js"
+    "static/js/main.ceb357ba.js"
   ]
 }
